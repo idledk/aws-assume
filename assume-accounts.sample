@@ -1,0 +1,8 @@
+#!/bin/bash
+
+MFA_SERIAL="arn:aws:iam::112233445566:mfa/your.name"
+SESSION_NAME="your.name"
+
+declare -A role_list=(\
+[account456]='665544332211|role-in-destination-account|eu-north-1|Free text description' \
+)
